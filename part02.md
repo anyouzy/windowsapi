@@ -1,4 +1,5 @@
-### 第二部分
+### windows常用API函数(二)
+
 1. GetClientRect 获得窗口大小(客户区）
 	- 直接上例子:
 
