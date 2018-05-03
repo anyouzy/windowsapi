@@ -18,6 +18,7 @@
 				printf("%d,%d,%d,%d\n",rect.left,rect.top,rect.right,rect.bottom);//输出窗口大小，试着用鼠标改变窗口大小
 				Sleep(300);
 			}
+			return 0;
 		}
 		```
 2. GetWindowRect 获得窗口大小（相对屏幕）
@@ -38,6 +39,7 @@
 				printf("%d,%d,%d,%d\n",rect.left,rect.top,rect.right,rect.bottom);//输出窗口大小，试着用鼠标改变窗口大小
 				Sleep(300);
 			}
+			return 0;
 		}
 		```
 3. FindFirstFile 寻找文件以及获得文件的信息
