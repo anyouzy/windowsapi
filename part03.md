@@ -116,7 +116,7 @@
 			MSG msg;//消息结构类型
 			while(GetMessage(&msg,NULL,0,0))//获取消息
 			{
-				//TranslateMessage(&msg); //此函数用于把键盘消息(WM_KEYDOWN,WM_KEYUP)转换成字符消息WM_CHAR
+				TranslateMessage(&msg); //此函数用于把键盘消息(WM_KEYDOWN,WM_KEYUP)转换成字符消息WM_CHAR
 				DispatchMessage(&msg); //这个函数调用窗口过程处理函数，并把MSG里的信息处理后传给过程函数的四个参数
 			}
 			return 0;
